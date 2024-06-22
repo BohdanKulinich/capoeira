@@ -27,12 +27,14 @@
 			<img src="images/home/logo.png">
 		</div>
 		<ul class="nav-list">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#our_team">Classes</a></li>
-			<li><a href="#pricing">Prices</a></li>
-			<li><a href="#blog">Boutique</a></li>
-			<li><a href="#blog">Contact</a></li>
+			<li><a href="#home" id="accueil">Home</a></li>
+			<li><a href="#about" id="about1">About</a></li>
+			<li><a href="#our_team" id="classes1">Classes</a></li>
+			<li><a href="#events" id="events1">Events</a></li>
+			<li><a href="#pricing" id="prices1">Prices</a></li>
+			<li><a href="#blog" id="boutique1">Boutique</a></li>
+			<li><a href="#contact" id="contact1">Contact</a></li>
+			
 		</ul>
 		<!-- <a href="#" class="join-us-btn-wrapper">
 			<button class="btn join-us-btn">Join Us</button>
@@ -45,10 +47,11 @@
 
 		<div class="language">
 			<div class="language-selected">
-				<span class="flag-icon flag-icon-br"></span>
+				en-US
+				<!-- <span class="flag-icon flag-icon-br"></span> -->
 			</div>
 			<ul>
-				<li><a href="#" class="qb">Français</a></li> <!-- fr --->
+				<li><a href="#" class="qb">Français</a></li> <!-- fr-QB --->
 				<li><a href="#" class="br">Português</a></li> <!-- pt-BR -->
 				<li><a href="#" class="us">English</a></li> <!-- en-US -->				
 			</ul>
@@ -59,21 +62,20 @@
 	<!--   === Banner Starts ===   -->
 	<div class="banner">
 		<div class="banner-contents">
-		<h2>start your journey today</h2>
+		<!-- <h2>start your journey today</h2> -->
 		<h1>capoeira angola montreal</h1>
 		<h3>since 1994</h3>
 		<figure>
 		<blockquote>
-			<p>« Aqui pratico a verdadeira Capoeira Angola e aqui os homens aprendem a ser leais e justos. »
-				« Here we practice real Capoeira Angola and here we learn to be loyal and fair.” 
-			</p>
+			<p>« Aqui pratico a verdadeira Capoeira Angola e aqui os homens aprendem a ser leais e justos. » </p>
+			<p id="intro"> "Here we practice real Capoeira Angola and here we learn to be loyal and fair." </p>
 		</blockquote>
-		<figcaption>
+		<!-- <figcaption>
 			Mestre Pastinha cited by Jorge Amado, in <cite> Capoeira Angola, Ensaio socio-etnografico </cite>, 
 			by Waldeloir Rego, Editoria Itapuã, 1968, Salvador.
-		</figcaption>
+		</figcaption> -->
 	    </figure>
-		<button class="btn read-more-btn">Read More</button>
+		<button class="btn read-more-btn"><a href="blog.html" id="more">Read More</a></button>
 		</div>
 	</div>
 	<!--   === Banner Ends ===   -->
@@ -89,9 +91,10 @@
 			<div class="facility-icon">
 				<i class="fa-solid fa-person-running"></i>
 			</div>
-			<div class="facility-desc">
-				<h2>Martial Art</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<div class="facility-desc martial-art">
+				<h2 >Martial Art</h2>
+				<p>Capoeira Angola is famous for its slow and elegant movements. 
+					It emphasizes the importance of ritual and theatricality.  </p>
 			</div>
 		</div>
 
@@ -99,9 +102,10 @@
 			<div class="facility-icon">
 				<i class="fa-solid fa-shoe-prints"></i>
 			</div>
-			<div class="facility-desc">
+			<div class="facility-desc music">
 				<h2>Music and Song</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>You will learn to play traditional musical instruments such as
+					berimbau, atabaque, pandeiro, and sing capoeira songs.</p>
 			</div>
 		</div>
 
@@ -109,9 +113,10 @@
 			<div class="facility-icon">
 				<i class="fa-solid fa-heart"></i>
 			</div>
-			<div class="facility-desc">
+			<div class="facility-desc atmosphere">
 				<h2>Friendly Atmosphere</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>Capoeira Angola practice helps develop combat skills 
+					and connects you to a similar-minded community of great people. </p>
 			</div>
 		</div>
 
@@ -128,41 +133,45 @@
 		</div>
 
 		<div class="about-right-col">
-			<h4>About Us</h4>
-			<h2>Grupo de Capoeira  Semente do Jogo de Angola in Montréal</h2>
-			<p>
-			    The Grupo has been established since 1994, thanks to the efforts of a handful of enthusiasts.
-				It was born from the meeting of Mestre Jogo de Dentro and Colette in December 1994. 
-				We celebrate 30 years of existence next December. First established at 10, rue des Pins west, 
-				it has been located since 1998 at 372, Sainte-Catherine west, studio 310. 
-				Training takes place 4 times a week.
+			<a href="blog.html"><h4>About Us</h4></a>
+
+			<a href="blog.html" class="origins"><h2>The origins</h2></a> 
+			<p >The history of Capoeira Angola is punctuated by notable moments and it is difficult 
+				to give a summary that does justice to the survival of this art which has gone 
+				through many pitfalls and overcome a long period of prohibition... 
 			</p>
-			<h2>Mestre Pastinha </h2>
+			<a href="blog.html" class="pastinha"><h2>Mestre Pastinha </h2></a>
 			<p>
 				Vincente Ferreira Pastinha was born on April 5, 1889 and died on November 13, 1981. 
 				As a child, he was small and frail, his neighbor, an old Angolan, Benedito, 
 				taught him the basics of Capoeira. This is how he begins to practice and how he will later 
-				want to share his knowledge. Among his many occupations, he became a sailor and taught to his colleagues 
-				in the navy. When Mestre Bimba created the regional style, Mestre Pastinha wanted to dedicate himself 
-				to the preservation of more traditional capoeira, refusing to include techniques 
-				that come from other combat arts. It was at this moment that the Capoeira he practiced became 
-				Capoeira Angola. And the Capoeira Mestre Bimba, first named Luta Baiana Regional 
-				(Capoeira till being outlawed at that time), became Capoeira Regional. 
-				Mestre Pastinha was also one of the first to write a book on Capoeira and to develop an educational system 
-				for Capoeira Angola. He died poor and practically  blind. He always advocated non-violence 
-				in the practice of Capoeira Angola. His two greatest disciples are Mestre João Pequeno and 
-				Mestre João Grande.
-
-                Here is the description that the famous Brazilian writer Jorge Amado gives of Mestre Pastinha: 
-				“I see myself leaning against the window of a house in Largo do Pelourinho with next to me, 
-				an old man over seventy years old, with failing eyesight, small and agile like a cat he is talking to me. 
-				We are old friends, I don’t even remember when we met and since when I have been following 
-				his glorious trajectory. He is one of the masters of Bahian popular culture, this black man 
-				with a soft voice and a happy face, who is growing old within the walls of his Capoeira Angola school, 
-				dancing and wrestling better than any of the young people with hard muscles of adolescents. 
-				I’m talking about Mestre Pastinha, one of the greatest capoeiristas Bahia has ever produced. 
-				He has just finished dancing a Samba de roda and is about to enter the Capoeira roda.” 
-				(Waldeloir Rego, op. cit., p. 274-275.)
+				want to share his knowledge... 
+			</p>
+			<a href="blog.html" class="pequeno"><h2>Mestre João Pequeno </h2></a>
+			<p>After attending capoeira rodas, wanting to become more combative, Mestre João Pequeno 
+				began practicing Capoeira with Mestre Gilvenson, he later became one of the main 
+				disciples of Mestre Pastinha...
+			</p>
+			<a href="blog.html" class="jogo"><h2>Mestre Jogo de Dentro </h2></a>
+			<p>Mestre Jogo de Dentro trained to become a master of Capoeira Angola at the 
+				Centre Esportiva de Capoeira Angola of the legendary Mestre João Pequeno...
+			</p>
+			<a href="blog.html" class="montreal"><h2>Capoeira Angola in Montréal</h2></a>
+			<p>
+			    The Grupo has been established since 1994, thanks to the efforts of a handful of enthusiasts.
+				It was born from the meeting of Mestre Jogo de Dentro and Colette in December 1994. 
+				We celebrate 30 years of existence next December...
+			</p>
+			<a href="blog.html" class="colette"><h2>Mestre Colette </h2></a>
+			<p>A pioneer of Capoeira Angola in Canada, she has been practicing since 1990, 
+				at which time contemporary Capoeira was booming. In 1993, Colette undertook her 
+				first trip to Brazil and in 1994 during her second stay...
+			</p>
+			<a href="blog.html" class="nico"><h2>Contramestre Nicolas</h2></a>
+			<p>Nicolas began practicing Capoeira Angola with Colette in January 2000. He quickly 
+				became her right-hand man. Talented both in combat dance and Afro-Brazilian music 
+				and rhythms, he as the gift of sowing around him an atmosphere of conviviality 
+				and trust...
 			</p>
 			<!-- <div class="about-states">
 				<div class="about-state about-state-1">
@@ -203,7 +212,11 @@
 			</div>
 			<div class="service-desc">
 				<h2>Training</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p>Individual practice, led by mestre Colette, includes a warm-up, rehearsing 
+					the basic movements, and perfecting the traditional Capoeira Angola sequences. 
+					In the second part of the class, we put into practice what we have learned by 
+					working with a partner. 
+				</p>
 			</div>
 		</div>
 
@@ -213,7 +226,10 @@
 			</div>
 			<div class="service-desc">
 				<h2>Music</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p>Traditionally, Capoeira Angola practice is accompanied by the music and singing. During the 
+					class we learn to play different musical instruments, such as the berimbau, atabaque, pandeiro,
+					and sing capoeira songs.
+				</p>
 			</div>
 		</div>
 
@@ -223,7 +239,9 @@
 			</div>
 			<div class="service-desc">
 				<h2>Singing</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p>Song lies in the heart of Capoeira Angola tradition. By following the classic capoeira songs we make 
+					the practice more dynamic and fun. We learn to sing the songs in Portuguese and understand their meaning.
+				</p>
 			</div>
 		</div>
 
@@ -233,7 +251,11 @@
 			</div>
 			<div class="service-desc">
 				<h2>Roda</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				<p>Roda is the manifestation of the art of Capoeira. Two capoeiristas play the game 
+					in the center made by the spectators and the bateria of musicians. The roda is a 
+					place of exchange, improvisation, and respect. It is the moment to put into 
+					practice what we have learned during the class.
+				</p>
 			</div>
 		</div>
 
@@ -292,10 +314,10 @@
 			    </a>
 			</div>
 			<div class="trainer-desc">
-				<h2>Contramestre Nico</h2>
+				<a href="/nico.html"><h2>Contramestre Nico</h2></a>
 				<p>Nicolas began practicing Capoeira Angola with Colette in January 2000.  
 					In 2019, he moved to Quebec and set up a cell of the Grupo de Capoeira Semente do Jogo de Angola. 
-					In 2021, he became the first contramestre formed by Colette and the GCSJA cell in Montreal.
+					In 2021, he became the first contramestre formed by Colette and the GCSJA cell in Montreal. brault_nicolas@yahoo.com
 				</p>
 			</div>
 			<div class="trainer-contact">
@@ -364,7 +386,7 @@
 	<header class="section-header">
 		<h3>Prices</h3>
 		<h1>Join Suitable Plan</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p>The first class is free!</p>
 	</header>
 	<!--   === Pricing Header Ends ===   -->
 	<!--   === Pricing Contents Starts ===   -->
@@ -444,13 +466,82 @@
 </section>
 <!--   *** Pricing Section Ends ***   -->
 
+<!--   *** Events Section Starts ***   -->
+<section class="our-team" id="events">
+
+	<header class="section-header">
+		<h3></h3>
+		<h1>Our Capoeira Angola Events</h1>
+		<p>Grupo de Capoeira  Semente do Jogo de Angola in Montréal</p>
+	</header>
+
+	<div class="team-contents">
+		
+		<div class="trainer-card">
+			<div class="trainer-image">
+				<img src="images/events/capo-camp.jpg">
+			</div>
+			<div class="trainer-desc">
+				<h2>Capoeira Angola Camping</h2>
+				<p>Carleton-sur-mer : August 8 to 12, 2024. 
+					Join us for a week of Capoeira Angola practice, music, and fun. 
+					We will be camping in the beautiful Gaspésie region. 
+					All levels are welcome.
+				</p>
+			</div>
+			<div class="trainer-contact">
+				<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+		</div>
+
+		<div class="trainer-card">
+			<div class="trainer-image">
+				<a href="nico.html">
+				    <img src="images/events/jogo-dentro.jpeg" >
+			    </a>
+			</div>
+			<div class="trainer-desc">
+				<a href="/nico.html"><h2>Mestre Jogo de Dentro in Montreal </h2></a>
+				<p>November 6 to 13, 2024. 
+				</p>
+			</div>
+			<div class="trainer-contact">
+				<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+		</div>
+
+		<div class="trainer-card">
+			<div class="trainer-image">
+				<img src="images/events/brazil.jpg">
+			</div>
+			<div class="trainer-desc">
+				<h2>Event Semeando in Brazil</h2>
+				<p>December 26, 2024 to January 6, 2025, Bahia and Cacha Pregos
+				</p>
+			</div>
+			<div class="trainer-contact">
+				<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+				<a href="#"><i class="fa-brands fa-twitter"></i></a>
+				<a href="#"><i class="fa-brands fa-instagram"></i></a>
+			</div>
+		</div>
+
+	</div>
+	<!--   === Events Contents Ends ===   -->
+</section>
+<!--   *** Events Section Ends ***   -->
+
 <!--   *** Blog Section Starts ***   -->
 <section class="blog" id="blog">
 	<!--   === Blog Header Starts ===   -->
 	<header class="section-header">
 		<h3>Our Boutique</h3>
 		<h1>Latest Offerings from our Boutique</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		<p>There is a great choice of excellent original capoeira instruments!</p>
 	</header>
 	<!--   === Blog Header Ends ===   -->
 
@@ -463,8 +554,9 @@
 				<div class="subject"><h3>Berimbau</h3></div>
 				<span>21/06/2023</span>
 			</div>
-			<h2 class="article-title">Berimbau: Lorem ipsum dolor sit amet, consectetur.</h2>
-			<p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+			<h2 class="article-title">Berimbau: presides over the roda.</h2>
+			<p class="article-desc">Whatever style the berimbaus call, the capoeirista must play, 
+				no matter if it is fast, slow, a fight, or only a playful game.</p>
 			<div class="article-views">
 				<span>2.5k <i class="fa-solid fa-eye"></i></span>
 				<span>352 <i class="fa-solid fa-comment"></i></span>
@@ -477,8 +569,9 @@
 				<div class="subject"><h3>Atabaque</h3></div>
 				<span>21/06/2023</span>
 			</div>
-			<h2 class="article-title">Atabaque: Lorem ipsum dolor sit amet, consectetur.</h2>
-			<p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+			<h2 class="article-title">Atabaque: keeps pace of the game.</h2>
+			<p class="article-desc">It is the major drum used in the bateria 
+				and it supplies the base beat in capoeira music.</p>
 			<div class="article-views">
 				<span>2.5k <i class="fa-solid fa-eye"></i></span>
 				<span>352 <i class="fa-solid fa-comment"></i></span>
@@ -491,8 +584,8 @@
 				<div class="subject"><h3>Caixixi</h3></div>
 				<span>21/06/2023</span>
 			</div>
-			<h2 class="article-title">Caixixi: Lorem ipsum dolor sit amet, consectetur.</h2>
-			<p class="article-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+			<h2 class="article-title">Caixixi: is an integral part of berimbau</h2>
+			<p class="article-desc">The caxixi summons good enchanted spirits and wards off evil ones.</p>
 			<div class="article-views">
 				<span>2.5k <i class="fa-solid fa-eye"></i></span>
 				<span>352 <i class="fa-solid fa-comment"></i></span>
@@ -518,12 +611,15 @@
 				<h3>About</h3>
 			</div>
 			<div class="footer-col-desc">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
-				<span>372, Sainte-Catherine ouest, local 310 </span>
+				<p>Capoeira Angola is a game, a dance-combat. The practice of this art requires physical 
+					training (quite intense), where we also learn to play instruments and sign roda music. 
+					It is a theatrical and euphoric martial art.</p>
+				<p>The Grupo de Capoeira  Semente do Jogo de Angola in Montréal has been established since 1994, 
+					thanks to the efforts of a handful of enthusiasts. </p>
+				<span id="contact">372, Sainte-Catherine ouest, local 310 </span>
 				<span>Montréal, Quebec, H3B 1A2</span>
 				<span>(514) 270 5853</span>
-				<span>colette@capoeiraangola.ca</span>
+				<span>mestrecolette@videotron.ca</span>
 				<div class="footer-social-media">
 					<a href="#"><i class="fa-brands fa-facebook-f"></i></a>
 					<a href="#"><i class="fa-brands fa-twitter"></i></a>
@@ -552,7 +648,7 @@
 				<h3>Newsletter</h3>
 			</div>
 			<div class="footer-col-desc">
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<p>Please subscribe to our newsletter to get the latest news about the coming events.</p>
 				<form class="newsletter">
 					<input type="email" placeholder="Your Email">
 					<button class="btn newsletter-btn" type="submit">Subscribe</button>
@@ -579,6 +675,7 @@
 
 
 <!--   *** Link To Custom Script File ***   -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
